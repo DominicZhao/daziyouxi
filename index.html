@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>打字游戏</title>
+    <link rel="stylesheet" href="youxi.css">
+    <script src="function.js"></script>
+    <script src="youxi.js"></script>
+    <script>
+        window.onload=function(){
+            var obj=new game();
+            obj.play();
+        }
+    </script>
+</head>
+<body>
+
+    <div class="start">
+        <img src="imge/start.png" alt="">
+        <span class="kaishi">开始游戏</span>
+        <!-- <span class="shezhi">设 置</span> -->
+        <!-- <span class="tuichu">退出游戏</span> -->
+    </div>
+    <div class="JiLu juli1">
+        <div class="ShenM">生命：</div>
+        <div class="ShenMZ">5</div>
+    </div>
+    <div class="JiLu juli2">
+        <div class="GFenS">关卡分数：</div>
+        <div class="GFenSZ">0</div>
+    </div>
+    <div class="JiLu juli3">
+        <div class="ZFenS">总分数：</div>
+        <div class="ZFenSZ">0</div>
+    </div>
+    <div class="JiLu juli4">
+        <div class="Guan">关卡：</div>
+        <div class="GuanS">0</div>
+    </div>
+
+    <div class="zhant backTu">暂停</div>
+    <div class="KaiShi backTu">开始</div>
+    <div class="back backTu">退出</div>
+    <!--<div class="new1 backTu">重新开始</div>-->
+    <div class="gongxi JieS">恭喜进入下一关</div>
+    <div class="game JieS">Game Over</div>
+</body>
+</html>

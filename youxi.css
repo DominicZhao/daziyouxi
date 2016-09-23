@@ -1,0 +1,192 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    /*background: #110012;*/
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: url(imge/background.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.start{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    /* background-image: url(../imge/start.png);
+    background-position: center center; */
+    /*z-index: 3;*/
+    /*display: none;*/
+    
+}
+.start img{
+    width: 100%;
+    height: 100%;
+}
+.kaishi{
+   /*  position: absolute;
+   top: 400px;
+   left: 370px;
+   color: red;
+   z-index: 4;
+   font-size: 18px;
+   color: #fff;
+   padding: 20px 57px;
+   background: red;
+   cursor: default; */
+   position: absolute;
+    top: 60%;
+    left: 45%;
+    color: red;
+    z-index: 4;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 62px;
+    /*background: red;*/
+    cursor: default;
+}
+/* .shezhi{
+    position: absolute;
+    top: 400px;
+    left: 610px;
+    color: red;
+    z-index: 4;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 62px;
+    background: red;
+    cursor: default;
+} */
+/*.tuichu{
+    position: absolute;
+    top: 400px;
+    left: 830px;
+    color: red;
+    z-index: 4;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 62px;
+    /*background: red;*/
+    /* cursor: default;
+    } */
+.JiLu{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background-image: url(imge/xiaol.png);
+    background-position: center center;
+    /*background: #008ebc;*/
+    line-height: 50px;
+    text-align: center;
+    z-index: 60;
+    display: none;
+}
+.JiLu div{
+    float: left;
+    position: relative;
+    left: 50px;
+    line-height: 50px;
+    text-align: center;
+    height: 100%
+}
+.juli2 div{
+    float: left;
+    position: relative;
+    left: 30px;
+    line-height: 50px;
+    text-align: center;
+    height: 100%
+}
+.juli3 div{
+    float: left;
+    position: relative;
+    left: 40px;
+    line-height: 50px;
+    text-align: center;
+    height: 100%
+}
+.juli2{
+    position: absolute;
+    left: 530px;
+}
+.juli3{
+    right: 530px;
+}
+.juli4{
+   right: 0px;
+}
+.TanK{
+    width: 264px;
+    height: 330px;
+    position: absolute;
+    left:500px; 
+    bottom: 200px;
+}
+.TanK .BaoZ{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top:130px;
+}
+.TanK span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.TanK .BaoZ1{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top:180px;
+}
+.backTu{
+    width: 100px;
+    height: 50px;
+    background-image: url(imge/xiaok.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+}
+.zhant{
+    position:absolute;
+    top:0;
+    display: none;
+}
+.KaiShi{
+    position: absolute;
+    top:60px;
+    display: none;
+}
+.back{
+    position: absolute;
+    top:120px;
+    display: none;
+}
+/*.new1{*/
+    /*position: absolute;*/
+    /*top:180px;*/
+    /*display: none;*/
+/*}*/
+.JieS{
+    width: 100%;
+    height: 115px;
+    text-align: center;
+    line-height: 115px;
+    font-size: 16px;
+    position: absolute;
+    top:350px;
+    background-image: url(imge/xiayi.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: none;
+}
